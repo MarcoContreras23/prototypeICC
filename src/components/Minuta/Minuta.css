@@ -1,0 +1,55 @@
+/* Minuta.css */
+
+.minuta-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .minuta-container h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .minuta-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .minuta-container label {
+    font-weight: bold;
+  }
+  
+  .minuta-container input[type="text"],
+  .minuta-container input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .minuta-container input[type="file"] {
+    padding-top: 6px;
+  }
+  
+  .minuta-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .minuta-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
