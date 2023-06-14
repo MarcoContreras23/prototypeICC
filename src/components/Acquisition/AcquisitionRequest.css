@@ -1,0 +1,170 @@
+.acquisition-request-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.acquisition-form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.acquisition-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.acquisition-form h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #888;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.checkbox-group label {
+  margin-right: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signature-list {
+  margin-top: 20px;
+}
+
+.signature-list h4 {
+  margin-bottom: 10px;
+}
+
+.signature-list input[type="file"] {
+  display: block;
+  margin-top: 5px;
+}
+
+.confirmation-form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.confirmation-form p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #888;
+}
+
+.confirmation-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.confirmation-form input[type="email"],
+.confirmation-form input[type="text"],
+.confirmation-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.confirmation-form input[type="file"] {
+  display: block;
+  margin-top: 5px;
+}
+
+.confirmation-form .button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.confirmation-form .button-group button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.file-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-inline {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+
+.file-label {
+  padding: 0.5rem 1rem;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .acquisition-form,
+  .confirmation-form {
+    max-width: 100%;
+  }
+}
+
