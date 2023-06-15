@@ -1,0 +1,84 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper input[type="text"],
+  .input-wrapper select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .input-wrapper input[type="text"] {
+    background-color: #f2f2f2;
+  }
+  
+  .input-wrapper select {
+    background-color: #fff;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-wrapper button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-wrapper button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody td:first-child {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .input-wrapper {
+      flex-direction: column;
+    }
+  
+    .input-wrapper input[type="text"],
+    .input-wrapper select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

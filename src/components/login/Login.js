@@ -14,7 +14,10 @@ const Login = ({ onLogin }) => {
             onLogin('user');
         } else if (username === 'coordinador' && password === '123') {
             onLogin('admin');
-        }else {
+        } else if (username === 'tarifa' && password === '123') {
+            onLogin('user2');
+        }
+        else {
             // Mostrar la notificación de error
             setShowError(true);
         }
